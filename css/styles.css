@@ -1,0 +1,120 @@
+body {
+  font-family: 'Montserrat';
+  background-color: #343a40;
+}
+p{
+  margin-top:1%;
+  font-size: 1vw;
+}
+a:hover{
+  color:#000000;
+}
+a{
+  color:#EAF6F6;
+  margin: auto 0.5rem auto 0.5rem ;
+}
+.first-heading {
+  font-family: 'Montserrat';
+  line-height: 4rem;
+
+  font-weight: bold;
+  font-size: 3vw;
+  text-align: justify;
+  color: #ffffff;
+}
+.second-heading{
+  margin-top:10%;
+  color: #ffffff;
+  font-family: 'Montserrat';
+
+  font-size: 2vw;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  letter-spacing: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#title {
+  padding: 4% 6% 10%;
+  background-color: #343a40;
+}
+
+.top-container {
+  text-align: right;
+}
+
+.img-custom {
+  border-radius: 2rem;
+  width: 90%;
+}
+
+#Shayari {
+  padding: 4% 6% 8%;
+  color: #fcfcfc;
+}
+.space{
+  padding:3.5%;
+}
+.img-position{
+
+  position:absolute;
+
+}
+.right-X{
+  font-size: 1vw;
+  padding: 9%;
+  text-align: right;
+  position:relative;
+  z-index: 1
+}
+.right{
+  font-size: 1vw;
+  padding: 12%;
+  text-align: right;
+  position:relative;
+  z-index: 1;
+}
+.position{
+  font-size: 2vw;
+
+  padding: 9%;
+  position:relative;
+  z-index: 1;
+}
+#footer{
+  text-align: center;
+  padding: 2% 6% 4%;
+  color: #EAF6F6;
+  background-color: #474a56;
+}
+.mak{
+  font-size: 0.8vw;
+}
+@media screen and (max-width: 700px){
+ .right{
+   font-size:1.5vw;
+ }
+ .right-X{
+   font-size: 1.5vw;
+ }
+
+}
+@media screen and (max-width: 370px) {
+  #Shayari{
+    padding:3% 6% 0;
+  }
+
+
+}
